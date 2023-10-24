@@ -26,7 +26,7 @@ I used my knowledge of Python and unsupervised learning to predict if cryptocurr
 * Answered the following question in my notebook: What is the best value for k?
 Answer: 4
 
-# Clustered Cryptocurrencies with K-means Using the Original Scaled Data:
+# Cluster Cryptocurrencies with K-means Using the Original Scaled Data:
 
 * I used the following steps to cluster the cryptocurrencies for the best value for k on the original scaled data:
 * Initialized the K-means model with the best value for k.
@@ -35,8 +35,8 @@ Answer: 4
 * Created a copy of the original data and add a new column with the predicted clusters.
 * Created a scatter plot using hvPlot as follows:
 Set the x-axis as "PC1" and the y-axis as "PC2".
-* Color the graph points with the labels found using K-means.
-* Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+* Colored the graph points with the labels found using K-means.
+* Added the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
 ![Alt text](<Screenshot 2023-10-24 030322.png>)
 
@@ -60,31 +60,22 @@ Set the x-axis as "PC1" and the y-axis as "PC2".
 
 ![Alt text](<Screenshot 2023-10-24 031234.png>)
 
-Answered the following question in your notebook:
 
-What is the best value for k when using the PCA data?
+# Answered the following question in your notebook:
 
-Does it differ from the best k value found using the original data?
+* What is the best value for k when using the PCA data?
+* Does it differ from the best k value found using the original data?
 
-Cluster Cryptocurrencies with K-means Using the PCA Data:
-
-I used the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
-
-Initialized the K-means model with the best value for k.
-
-Fit the K-means model using the PCA data.
-
-Predicted the clusters to group the cryptocurrencies using the PCA data.
-
-Created a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.
-
-Created a scatter plot using hvPlot as follows:
-
-Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
-
-Color the graph points with the labels found using K-means.
-
-Add the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
+# Cluster Cryptocurrencies with K-means Using the PCA Data:
+* I used the following steps to cluster the cryptocurrencies for the best value for k on the PCA data:
+* Initialized the K-means model with the best value for k.
+* Fit the K-means model using the PCA data.
+* Predicted the clusters to group the cryptocurrencies using the PCA data.
+* Created a copy of the DataFrame with the PCA data and add a new column to store the predicted clusters.
+* Created a scatter plot using hvPlot as follows:
+* Set the x-axis as "price_change_percentage_24h" and the y-axis as "price_change_percentage_7d".
+* Colored the graph points with the labels found using K-means.
+* Added the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
 Answered the following question:
 
