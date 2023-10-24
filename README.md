@@ -77,7 +77,9 @@ Set the x-axis as "PC1" and the y-axis as "PC2".
 * Colored the graph points with the labels found using K-means.
 * Added the "coin_id" column in the hover_cols parameter to identify the cryptocurrency represented by each data point.
 
-Answered the following question:
+![Alt text](<Screenshot 2023-10-24 032111.png>)
 
-What is the impact of using fewer 
-features to cluster the data using K-Means?
+# Answered the following question:
+* What is the impact of using fewer features to cluster the data using K-Means?
+
+Answer: The number of clusters (k) as shown in the elbow curve plots was not affected using fewer features. For cryptocurrency clusters, group 1 and 3 are very distinct from the rest of the cryptocurrencies, while group 0 and 2 are similiar. The use of fewer features to cluster data using K-means, helped reduce the amount of noise in the cryptocurrency clusters with pca, thereby making the grouping of the data more clear and readable.
