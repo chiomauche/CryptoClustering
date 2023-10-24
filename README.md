@@ -2,25 +2,24 @@
 
 I used my knowledge of Python and unsupervised learning to predict if cryptocurrencies are affected by 24-hour or 7-day price changes.
 
-## Prepare the Data:
+![Alt text](<Screenshot 2023-10-24 024615.png>)
+
+## Prepared the Data:
 
 * I used the StandardScaler() module from scikit-learn to normalize the data from the CSV file.
 
-I created a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
+![Alt text](image.png)
 
-Find the Best Value for k Using the Original Scaled DataFrame:
+* I created a DataFrame with the scaled data and set the "coin_id" index from the original DataFrame as the index for the new DataFrame.
 
-I used the elbow method to find the best value for k using the following steps:
+# Found the Best Value for k Using the Original Scaled DataFrame:
 
-Created a list with the number of k values from 1 to 11.
-
-Created an empty list to store the inertia values.
-
-Created a for loop to compute the inertia with each possible value of k.
-
-Created a dictionary with the data to plot the elbow curve.
-
-Plotted a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
+* I used the elbow method to find the best value for k using the following steps:
+* Created a list with the number of k values from 1 to 11.
+* Created an empty list to store the inertia values.
+* Created a for loop to compute the inertia with each possible value of k.
+* Created a dictionary with the data to plot the elbow curve.
+* Plotted a line chart with all the inertia values computed with the different values of k to visually identify the optimal value for k.
 
 Answered the following question in your notebook: What is the best value for k?
 
